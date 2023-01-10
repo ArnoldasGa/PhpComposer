@@ -1,0 +1,19 @@
+{
+    "name": "arnoldas/composer",
+    "autoload": {
+        "psr-4": {
+            "App\\Vigi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arnoldas",
+            "email": "arnoldasgaigalas@gmail.com"
+        }
+    ],
+    "require": {
+        "cmfcmf/openweathermap-php-api": "^3.3",
+        "http-interop/http-factory-guzzle": "1.0",
+        "php-http/guzzle6-adapter": "^2.0 || ^1.0"
+    }
+}
